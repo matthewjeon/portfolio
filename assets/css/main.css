@@ -9,7 +9,6 @@ body {
 i {
 	margin-right: 10px;
 }
-/*----------multi-level-accordian-menu------------*/
 .navbar-logo {
 	padding:15px;
 	color:#fff;
@@ -135,4 +134,76 @@ i {
 			bottom:-25px;
 			left: -25px;
 	}
+}
+
+/* main page */
+#mainpage {
+	width:100%;
+	height:auto;
+}
+#mainpage .videobox {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin:0px auto;
+	position:relative;
+}
+#mainpage video {
+	width:100%;
+}
+#mainpage .videotext {
+	position:absolute;
+	top:50%;
+	width:100%;
+}
+
+.box-container {
+  position: absolute;
+  background: #ffac54;
+  border-radius: 1em;
+  width: 750px;
+  height: 300px;
+  margin-left: -375px;
+  margin-top: -150px;
+  left: 50%;
+  top: 40%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  padding: 0 0.7em;
+}
+
+.box {
+  font-size: 70px;
+  font-weight: 600;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  height: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .box {
+    font-size: 40px;
+  }
+
+  .box-container {
+    width: 300px;
+    height: 120px;
+    margin-left: -150px;
+    margin-top: -70px;
+  }
 }
